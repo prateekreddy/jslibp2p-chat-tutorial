@@ -13,7 +13,7 @@ let options = {
 async function main() {
     // Create a libp2p instance
     let libp2p = await Libp2p.create(options)
-    console.log(libp2p.peerInfo.id.toJSON())
+    console.log(libp2p.peerId.id.toString('hex'))
 }
 
 main()

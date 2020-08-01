@@ -13,6 +13,6 @@ let options = {
 
 // Declare async main
 // Inside main declare libp2p node using `create` method of Libp2p module and pass options
-// See for youself the id of the libp2p node we have created by using libp2p node's peerInfo.id.toJSON()
+// See for yourself the id of the libp2p node we have created by using libp2p node's peerId.id.toString('hex')
 
 // Call main
